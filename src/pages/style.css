@@ -1,0 +1,186 @@
+/* Front Page Background */
+* {
+    box-sizing: border-box;
+}
+.categoryPictures {
+    display: 'inline';
+    width:50vw;
+    height: 50vh;
+    border: 1px solid black;
+    position: relative;
+    -webkit-filter: blur(0px);
+	filter: blur(0px);
+	-webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.categoryPictures:hover {
+  border: 5px solid white;
+  border-style: ridge;
+	-webkit-filter: blur(0px);
+  filter: blur(0px);
+}
+a:hover {
+    cursor: grab;
+  }
+  a:active{
+    cursor: grabbing;
+  }
+.homeCategory {
+  float:left;
+  position: absolute;
+  top: 45vh;
+  left: 37.5vw;
+  height: 10vh;
+  width: 25vw;
+  z-index: 10;
+  text-align: center;
+}
+@media screen and (max-width: 800px) {
+.homeCategory {
+  display: none;
+}
+}
+.homeText {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.firstcategorysign {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    color: white;
+    font-size: 20   0%;
+}
+.secondcategorysign {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 5%;
+    left: 55%;
+    color: black;
+    font-size: 20   0%;
+}
+.thirdcategorysign {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    color: white;
+    font-size: 20   0%;
+}
+.fourthcategorysign {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 55%;
+    left: 55%;
+    color: black;
+    font-size: 20   0%;
+}
+/* Joke Page */
+.jumbotron {
+    width: 100vw;
+    height: 25vh;
+    padding: 5vh;
+    background-image: linear-gradient(white, slategrey);
+    text-align: center;
+    position: relative;
+}
+.jokeheader {
+    font-size: 40px;
+}
+.jokeaterisk {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 10px;
+  }
+.jokecontent {
+    align-content: center;
+    width: 100vw;
+    height: 20vh;
+}
+.history {
+  height: 15vh;
+  width: 70vw;
+  overflow: auto;
+  margin-left: 15vw;
+  border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Dropdown */
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+body {
+  background: #ffffff; 
+  color: #414141;
+  font: 400 17px/2em 'Source Sans Pro', sans-serif;
+}
+
+.select-box {
+  cursor: pointer;
+  position : relative;
+  max-width:  20em;
+  margin: 5em auto;
+  width: 100%;
+}
+
+.select,
+.label {
+  color: #414141;
+  display: block;
+  font: 400 17px/2em 'Source Sans Pro', sans-serif;
+}
+
+.select {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  padding: 5px 0;
+  height: 40px;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  background: none transparent;
+  border: 0 none;
+}
+.select-box1 {
+  background: #ececec;
+}
+
+.label {
+  position: relative;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.open .label::after {
+   content: "▲";
+}
+.label::after {
+  content: "▼";
+  font-size: 12px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 5px 15px;
+  border-left: 5px solid #fff;
+}
