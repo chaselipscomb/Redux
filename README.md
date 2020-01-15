@@ -20,7 +20,7 @@ User can select a category to start with.
 
 
 ### Prompts
-![Screenshot](joke.png)
+![Screenshot](jokepage.png)
 The user can generate more jokes and change the category.
 
 * JokeAPI has frequent maintenance which may affect experience.
