@@ -15,7 +15,7 @@ The Joke Generator is a small application that generates a random joke. The user
 
 
 ### Front Page
-![Screenshot](frontpage.png)
+![Screenshot](homepage.png)
 User can select a category to start with.
 
 
