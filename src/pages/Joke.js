@@ -52,7 +52,7 @@ function Joke() {
                 addJoke.setup = res.data.setup;
                 addJoke.delivery = res.data.delivery
             }
-            // SetHistory 
+
             setHistory(addJoke);
         });
     }
