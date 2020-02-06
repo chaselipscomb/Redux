@@ -55,7 +55,6 @@ function Joke() {
             setHistory(addJoke);
         });
     }
-    // return
     return (
         <>
             <div className="jumbotron">
