@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import API from '../API';
 import store from '../store/Store';
 
-// Joke function
+// Joke functio
 function Joke() {
     let category = store.getState();
     console.log(category.Category)
