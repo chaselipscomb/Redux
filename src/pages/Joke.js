@@ -35,7 +35,6 @@ function Joke() {
         })
     }
 
-    // joke 
     const newJoke = () => {
         API.search(category.Category).then((res) => {
             console.log(res)
