@@ -6,7 +6,7 @@ import store from '../store/Store';
 function Joke() {
     let category = store.getState();
     console.log(category.Category)
-    // variables
+
     const [dropdownchoice, setdropdownchoice] = useState(category.Category);
     const [joke, setJoke] = useState("My random joke goes here and will be replaced with redux.");
     const [delivery, setDelivery] = useState("")
