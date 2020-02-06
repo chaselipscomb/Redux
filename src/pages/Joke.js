@@ -3,11 +3,10 @@ import { Link } from 'react-router-dom';
 import API from '../API';
 import store from '../store/Store';
 
-// Joke funct
 function Joke() {
     let category = store.getState();
     console.log(category.Category)
-
+    // variables comment
     const [dropdownchoice, setdropdownchoice] = useState(category.Category);
     const [joke, setJoke] = useState("My random joke goes here and will be replaced with redux.");
     const [delivery, setDelivery] = useState("")
