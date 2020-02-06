@@ -12,7 +12,6 @@ function Joke() {
     const [delivery, setDelivery] = useState("")
     const [history, setHistory] = useState(category.History)
 
-    //categories
     const changeCategory = (e) => {
         setdropdownchoice(e.target.value);
         let newChoice = e.target.value;
