@@ -2,7 +2,7 @@ import axios from "axios";
 
 //const BASEURL = "/api/search/"
 //const BASEURL = "/api/search/"
-const BASEURL = "https://v2.jokeapi.dev/";
+const BASEURL = "https://v2.jokeapi.dev/joke/";
 
 // Export an object with a "search" method that searches the Giphy API for the passed query
 export default {
